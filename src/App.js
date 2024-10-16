@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useRef, useState } from "react";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import styles from "./styles/App.module.scss";
+import Main from "./components/Main/Main";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    setTheme(savedTheme);
+    document.body.className = savedTheme;
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    document.body.className = newTheme;
+    localStorage.setItem("theme", newTheme);
+  };
+
+  const About = useRef(null);
+  const Work = useRef(null);
+  const Skills = useRef(null);
+  const Contacts = useRef(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.wrapper}>
+      <Header
+        theme={toggleTheme}
+        About={About}
+        Work={Work}
+        Skills={Skills}
+        Contacts={Contacts}
+      />
+      <Main About={About} Work={Work} Skills={Skills} Contacts={Contacts} />
+      <Footer />
     </div>
   );
 }

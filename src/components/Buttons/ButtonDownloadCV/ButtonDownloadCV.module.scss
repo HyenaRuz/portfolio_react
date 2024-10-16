@@ -1,0 +1,36 @@
+@import "../../../styles/colors.scss";
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 12px;
+  padding: 6px 16px;
+  width: max-content;
+  background: var(--gray-900);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-50);
+
+  text-decoration: none;
+  font-weight: normal;
+  cursor: pointer;
+
+  transition: 300ms ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    background-color: var(--gray-700);
+  }
+
+  &:active {
+    background-color: var(--gray-800);
+  }
+
+  &.width {
+    width: 100%;
+  }
+}

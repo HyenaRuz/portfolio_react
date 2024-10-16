@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  padding: 24px 0;
+
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-color: var(--gray-50);
+
+  svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin: 0;
+  }
+}

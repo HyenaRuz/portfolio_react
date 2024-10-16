@@ -1,0 +1,18 @@
+@import "../../../styles/colors.scss";
+
+.button {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    * {
+      transition: 300ms ease-in-out;
+      stroke: var(--gray-600);
+    }
+  }
+}

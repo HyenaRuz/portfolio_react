@@ -1,0 +1,99 @@
+@import "../../styles/colors.scss";
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0px;
+  position: relative;
+
+  &_nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 24px;
+    padding-right: 24px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -2px;
+      border-left: 2px solid var(--gray-100);
+      width: 0px;
+      height: 24px;
+      transform: translateY(-50%);
+      transition: 300ms all ease-in-out;
+    }
+  }
+
+  &_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding-left: 24px;
+    // width: 100%;
+  }
+
+  &_logo {
+    h3 {
+      width: max-content;
+    }
+  }
+
+  &_navMenu {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    z-index: 10;
+    background-color: var(--gray-default);
+    // transition: transform 0.3s ease-in-out;
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      align-items: flex-start;
+
+      &_button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 16px;
+        gap: 16px;
+
+        div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+
+      ul {
+        padding: 0 16px;
+        border-top: 1px solid var(--gray-100);
+        border-bottom: 1px solid var(--gray-100);
+        width: 100%;
+        li {
+          padding: 8px 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 16px;
+  }
+}

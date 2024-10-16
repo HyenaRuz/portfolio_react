@@ -1,0 +1,18 @@
+@import "../../../styles/colors.scss";
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+
+
+
+  &_text {
+    font-weight: 500;
+    color: var(--gray-400);
+    &:hover {
+      text-decoration: none;
+      color: var(--gray-950);
+    }
+  }
+}
