@@ -38,6 +38,7 @@ function Works({ works }) {
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
+      // eslint-disable-next-line no-useless-concat
       return '<span class="' + className + '">' + "</span>";
     },
   };
@@ -52,8 +53,6 @@ function Works({ works }) {
             <p>Works</p>
           </div>
           <h4>Some of the noteworthy projects I have built:</h4>
-
-          {/* <h1>Current screen width: {width}px</h1> */}
         </div>
 
         {width > 768 ? (
