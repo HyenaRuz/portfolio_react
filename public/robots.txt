@@ -4,5 +4,5 @@ User-agent: *
 Disallow: /admin/  # Запретить доступ к страницам админки
 Allow: /           # Разрешить индексацию остального сайта
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://hyenaruz.github.io/portfolio_react/sitemap.xml
 
