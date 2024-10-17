@@ -26,7 +26,7 @@ function App() {
   const Contacts = useRef(null);
 
   return (
-    <div className={styles.wrapper}>
+    <>
       <Header
         theme={toggleTheme}
         About={About}
@@ -34,9 +34,11 @@ function App() {
         Skills={Skills}
         Contacts={Contacts}
       />
-      <Main About={About} Work={Work} Skills={Skills} Contacts={Contacts} />
+      <div className={styles.wrapper}>
+        <Main About={About} Work={Work} Skills={Skills} Contacts={Contacts} />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

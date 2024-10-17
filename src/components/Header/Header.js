@@ -16,34 +16,32 @@ function Header({ theme, About, Work, Skills, Contacts }) {
     return () => window.removeEventListener("resize", updateWidth);
   }, []);
 
-  // console.log("menu", menu);
-
   return (
     <>
-      <header className={styles.header}>
-        <div className={styles.header_logo}>
-          <h3>{"<NB />"}</h3>
-        </div>
+      <div className={styles.wrapperHeader}>
+        <header className={styles.header}>
+          <div className={styles.header_logo}>
+            <h3>{"<NB />"}</h3>
+          </div>
 
-        {width > 768 ? (
-          <>
-            <nav className={styles.header_nav}>
-              <Link sectionRef={About} name={"About"} />
-              <Link sectionRef={Work} name={"Work"} />
-              <Link sectionRef={Skills} name={"Skills"} />
-              <Link sectionRef={Contacts} name={"Contacts"} />
-            </nav>
-            <div className={styles.header_buttons}>
-              <ButtonLight method={theme} />
-              <ButtonDownloadCV />
-            </div>
-          </>
-        ) : (
-          <Burger active={active} setActive={setActive} />
-        )}
-
-        {/* <h1>Current screen width: {width}px</h1> */}
-      </header>
+          {width > 768 ? (
+            <>
+              <nav className={styles.header_nav}>
+                <Link sectionRef={About} name={"About"} />
+                <Link sectionRef={Work} name={"Work"} />
+                <Link sectionRef={Skills} name={"Skills"} />
+                <Link sectionRef={Contacts} name={"Contacts"} />
+              </nav>
+              <div className={styles.header_buttons}>
+                <ButtonLight method={theme} />
+                <ButtonDownloadCV />
+              </div>
+            </>
+          ) : (
+            <Burger active={active} setActive={setActive} />
+          )}
+        </header>
+      </div>
 
       {width < 768 ? (
         <nav

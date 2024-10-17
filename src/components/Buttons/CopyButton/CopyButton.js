@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./CopyButton.module.scss";
-import { ReactComponent as Copy } from "../../../assets/icon/icon-copy32.svg";
+import { ReactComponent as Copy } from "../../../assets/icon/icon-copy24.svg";
 
 function CopyButton({ copyText }) {
   const copyToClipboard = () => {

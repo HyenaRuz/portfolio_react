@@ -1,7 +1,7 @@
 import styles from "./Main.module.scss";
 import { ReactComponent as Location } from "../../assets/icon/icon-location24.svg";
-import { ReactComponent as Phone } from "../../assets/icon/icon-phone32.svg";
-import { ReactComponent as Email } from "../../assets/icon/icon-inbox32.svg";
+import { ReactComponent as Phone } from "../../assets/icon/icon-phone24.svg";
+import { ReactComponent as Email } from "../../assets/icon/icon-inbox24.svg";
 import classNames from "classnames";
 import CopyButton from "../Buttons/CopyButton/CopyButton";
 import LinkButton from "../Buttons/LinkButton/LinkButton";
@@ -11,22 +11,10 @@ import { about, hero } from "../../data/aboutData";
 import Works from "../Works/Works";
 import ComponentAbout from "../ComponentAbout/ComponentAbout";
 import ComponentSkills from "../ComponentSkills/ComponentSkills";
-// import { useLayoutEffect, useState } from "react";
 
 function Main({ About, Work, Skills, Contacts }) {
-  // const [width, setWidth] = useState(window.innerWidth);
-
-  // useLayoutEffect(() => {
-  //   const updateWidth = () => setWidth(window.innerWidth);
-  //   window.addEventListener("resize", updateWidth);
-
-  //   return () => window.removeEventListener("resize", updateWidth);
-  // }, []);
-
   return (
     <main className={styles.main}>
-      {/* <h1>Current screen width: {width}px</h1> */}
-
       {/* HERO */}
       <div className={styles.main_hero}>
         <div className={styles.main_hero_info}>
@@ -81,7 +69,7 @@ function Main({ About, Work, Skills, Contacts }) {
               styles.box
             )}
           >
-            <p className={styles.title}>Testimonials</p>
+            <p className={styles.title}>Contacts</p>
             <h4>
               What’s next? Feel free to reach out to me if you're looking for a
               developer, have a query, or simply want to connect.
