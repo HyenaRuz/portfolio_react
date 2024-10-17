@@ -54,7 +54,7 @@ const YouTubePlayer = ({ videoId, isActive, setIsPlay }) => {
         playerRef.current.destroy();
       }
     };
-  }, [videoId, isActive]);
+  }, [videoId, isActive, setIsPlay]);
 
   // Управление воспроизведением в зависимости от состояния карточки
   useEffect(() => {

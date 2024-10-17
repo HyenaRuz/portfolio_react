@@ -7,6 +7,8 @@ function ComponentAbout({ about }) {
   const [isIntersecting, setIsIntersecting] = useState(false);
 
   useEffect(() => {
+    const holder = holderRef.current;
+
     const aboutObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -16,13 +18,13 @@ function ComponentAbout({ about }) {
       { rootMargin: "0px", threshold: 0.5 }
     );
 
-    if (holderRef.current) {
-      aboutObserver.observe(holderRef.current);
+    if (holder) {
+      aboutObserver.observe(holder);
     }
 
     return () => {
-      if (holderRef.current) {
-        aboutObserver.unobserve(holderRef.current);
+      if (holder) {
+        aboutObserver.unobserve(holder);
       }
     };
   }, []);

@@ -7,6 +7,8 @@ function ComponentSkills({ skills }) {
   const [visibleIcons, setVisibleIcons] = useState(false);
 
   useEffect(() => {
+    const skillsBloc = skillsBlockRef.current;
+
     const skillsObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -20,13 +22,13 @@ function ComponentSkills({ skills }) {
       { rootMargin: "0px", threshold: 0.5 }
     );
 
-    if (skillsBlockRef.current) {
-      skillsObserver.observe(skillsBlockRef.current);
+    if (skillsBloc) {
+      skillsObserver.observe(skillsBloc);
     }
 
     return () => {
-      if (skillsBlockRef.current) {
-        skillsObserver.unobserve(skillsBlockRef.current);
+      if (skillsBloc) {
+        skillsObserver.unobserve(skillsBloc);
       }
     };
   }, []);

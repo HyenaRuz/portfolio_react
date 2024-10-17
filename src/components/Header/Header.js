@@ -2,7 +2,7 @@ import ButtonDownloadCV from "../Buttons/ButtonDownloadCV/ButtonDownloadCV";
 import ButtonLight from "../Buttons/ButtonLigt/ButtonLight";
 import Link from "../Buttons/Link/Link";
 import styles from "./Header.module.scss";
-import React, { useEffect, useLayoutEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import Burger from "../Buttons/Burger/Burger";
 import classNames from "classnames";
 

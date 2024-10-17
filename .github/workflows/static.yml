@@ -36,6 +36,9 @@ jobs:
         run: npm install
 
       - name: Build project
+        run: CI=false npm run build
+
+      - name: Build project
         run: npm run build
 
       - name: Setup Pages
@@ -45,7 +48,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload only the build directory
-          path: './build'
+          path: "./build"
 
       - name: Deploy to GitHub Pages
         id: deployment
