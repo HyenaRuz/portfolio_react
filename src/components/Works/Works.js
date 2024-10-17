@@ -4,7 +4,6 @@ import classNames from "classnames";
 import {
   EffectCards,
   EffectCoverflow,
-  EffectCreative,
   Navigation,
   Pagination,
 } from "swiper/modules";

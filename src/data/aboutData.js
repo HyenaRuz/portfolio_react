@@ -1,5 +1,4 @@
 import HeroPhoto from "../assets/photo_2023-10-13 15.34.24.jpeg";
-import AboutPhoto from "../assets/fTuqRYCdfiQ.jpeg";
 import AboutPhoto2 from "../assets/photo_2024-09-29 19.04.17.jpeg";
 import { ReactComponent as Git } from "../assets/icon/icon-github24.svg";
 import { ReactComponent as Linkedin } from "../assets/icon/icon-linkedin24.svg";

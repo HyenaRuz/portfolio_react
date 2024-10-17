@@ -11,18 +11,17 @@ import { about, hero } from "../../data/aboutData";
 import Works from "../Works/Works";
 import ComponentAbout from "../ComponentAbout/ComponentAbout";
 import ComponentSkills from "../ComponentSkills/ComponentSkills";
-import { useLayoutEffect, useState } from "react";
-import WorkCard from "../WorkCard/WorkCard";
+// import { useLayoutEffect, useState } from "react";
 
 function Main({ About, Work, Skills, Contacts }) {
-  const [width, setWidth] = useState(window.innerWidth);
+  // const [width, setWidth] = useState(window.innerWidth);
 
-  useLayoutEffect(() => {
-    const updateWidth = () => setWidth(window.innerWidth);
-    window.addEventListener("resize", updateWidth);
+  // useLayoutEffect(() => {
+  //   const updateWidth = () => setWidth(window.innerWidth);
+  //   window.addEventListener("resize", updateWidth);
 
-    return () => window.removeEventListener("resize", updateWidth);
-  }, []);
+  //   return () => window.removeEventListener("resize", updateWidth);
+  // }, []);
 
   return (
     <main className={styles.main}>

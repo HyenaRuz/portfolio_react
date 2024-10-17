@@ -45,7 +45,7 @@ function WorkCard({ work, reverse, isActive }) {
     <div
       className={classNames(styles.workCard, {
         [styles.reverse]: reverse,
-        ["__md"]: windowWidth > 768,
+        "__md": windowWidth > 768,
       })}
     >
       <div className={styles.workCard_picture}>
