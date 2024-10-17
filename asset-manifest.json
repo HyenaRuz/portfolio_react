@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.fc5f2627.css",
+    "main.js": "/portfolio_react/static/js/main.97cccc1e.js",
+    "static/media/Aesthetic.png": "/portfolio_react/static/media/Aesthetic.e5406bef6a3fdd1c4681.png",
+    "static/media/Everest.png": "/portfolio_react/static/media/Everest.8e4cb801b24430233141.png",
+    "static/media/Inter-VariableFont_opsz,wght.ttf": "/portfolio_react/static/media/Inter-VariableFont_opsz,wght.e05c5f3d1fa6a3893d84.ttf",
+    "static/media/Снимок экрана 2024-09-29 в 19.07.21.png": "/portfolio_react/static/media/Снимок экрана 2024-09-29 в 19.07.21.d190a16ac03dfe4ebaf0.png",
+    "static/media/RPS.png": "/portfolio_react/static/media/RPS.ba0fd5569d7fa1d808a8.png",
+    "static/media/fTuqRYCdfiQ.jpeg": "/portfolio_react/static/media/fTuqRYCdfiQ.f96fb999bfe16471cd96.jpeg",
+    "static/media/photo_2024-09-29 19.04.17.jpeg": "/portfolio_react/static/media/photo_2024-09-29 19.04.17.d979ed5814892ab1d609.jpeg",
+    "static/media/Novruz_Babaiev_-_Front-end_Developer.pdf": "/portfolio_react/static/media/Novruz_Babaiev_-_Front-end_Developer.67ffdf485d04e586cd1f.pdf",
+    "static/media/photo_2023-10-13 15.34.24.jpeg": "/portfolio_react/static/media/photo_2023-10-13 15.34.24.bd760289b1eddebdd6a8.jpeg",
+    "static/media/icon-postgresql.svg": "/portfolio_react/static/media/icon-postgresql.effebc2b63fc2ce382bfa7c6138c7055.svg",
+    "static/media/icon-nest.svg": "/portfolio_react/static/media/icon-nest.135eb0f973f3d921914f1f7b8698ec67.svg",
+    "static/media/icon-sass.svg": "/portfolio_react/static/media/icon-sass.3ff5ffffa28cb7b08b552dfd44537378.svg",
+    "static/media/icon-linkedin24.svg": "/portfolio_react/static/media/icon-linkedin24.a477d72b143f2b9b65604abe3d725c01.svg",
+    "static/media/SVGRepo_iconCarrier.svg": "/portfolio_react/static/media/SVGRepo_iconCarrier.0984ff97642621fbabc0af1c0c515d68.svg",
+    "static/media/icon-typescript.svg": "/portfolio_react/static/media/icon-typescript.65c9b62c0057974f624465a71e5f25eb.svg",
+    "static/media/icon-nodejs.svg": "/portfolio_react/static/media/icon-nodejs.e318042b677e223030bb3e5511bde07f.svg",
+    "static/media/icon-figma.svg": "/portfolio_react/static/media/icon-figma.9f82e63777a008b3a483fb64af427d6f.svg",
+    "static/media/icon-git.svg": "/portfolio_react/static/media/icon-git.68a3c0c8715aef47b24dc14f9456c8bc.svg",
+    "static/media/icon-phone32.svg": "/portfolio_react/static/media/icon-phone32.e286ebd0111fc59aee69c2478676bc73.svg",
+    "static/media/icon-react.svg": "/portfolio_react/static/media/icon-react.787d88f2947e9fc64e7726eebe0c6f17.svg",
+    "static/media/icon-light-mode24.svg": "/portfolio_react/static/media/icon-light-mode24.13fe7f157fb8aef7b8974d39a7d8d3c3.svg",
+    "static/media/icon-javscript.svg": "/portfolio_react/static/media/icon-javscript.b71318431091a4f0b2c122b5aff75a09.svg",
+    "static/media/icon-dark-mode24.svg": "/portfolio_react/static/media/icon-dark-mode24.a89c3ce70141fac9ccc5a8cc24a1336a.svg",
+    "static/media/telegram-svgrepo-com1.svg": "/portfolio_react/static/media/telegram-svgrepo-com1.87050132a74d34f49361968ee56ae245.svg",
+    "static/media/icon-copyright24.svg": "/portfolio_react/static/media/icon-copyright24.13af4cfa4c2e4f6a3264d301d00dcbb2.svg",
+    "static/media/icon-github24.svg": "/portfolio_react/static/media/icon-github24.c653150a276e0222975d59200a3cf44f.svg",
+    "static/media/icon-copy32.svg": "/portfolio_react/static/media/icon-copy32.fa254df2214cf2023db58e122d3af999.svg",
+    "static/media/icon-inbox32.svg": "/portfolio_react/static/media/icon-inbox32.51eede804d6a5c8f841b3824c0789a5d.svg",
+    "static/media/icon-external-link24.svg": "/portfolio_react/static/media/icon-external-link24.19ae2767a0de60a80470b8cc8b043ddf.svg",
+    "static/media/icon-location24.svg": "/portfolio_react/static/media/icon-location24.4d55280757661d14d7b62f4c8d4c66d0.svg",
+    "index.html": "/portfolio_react/index.html",
+    "main.fc5f2627.css.map": "/portfolio_react/static/css/main.fc5f2627.css.map",
+    "main.97cccc1e.js.map": "/portfolio_react/static/js/main.97cccc1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5f2627.css",
+    "static/js/main.97cccc1e.js"
+  ]
+}
