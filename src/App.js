@@ -24,6 +24,7 @@ function App() {
   const Work = useRef(null);
   const Skills = useRef(null);
   const Contacts = useRef(null);
+  const Home = useRef(null);
 
   return (
     <>
@@ -33,9 +34,16 @@ function App() {
         Work={Work}
         Skills={Skills}
         Contacts={Contacts}
+        Home={Home}
       />
       <div className={styles.wrapper}>
-        <Main About={About} Work={Work} Skills={Skills} Contacts={Contacts} />
+        <Main
+          About={About}
+          Work={Work}
+          Skills={Skills}
+          Contacts={Contacts}
+          Home={Home}
+        />
       </div>
       <Footer />
     </>

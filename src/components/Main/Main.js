@@ -12,11 +12,11 @@ import Works from "../Works/Works";
 import ComponentAbout from "../ComponentAbout/ComponentAbout";
 import ComponentSkills from "../ComponentSkills/ComponentSkills";
 
-function Main({ About, Work, Skills, Contacts }) {
+function Main({ About, Work, Skills, Contacts, Home }) {
   return (
     <main className={styles.main}>
       {/* HERO */}
-      <div className={styles.main_hero}>
+      <div className={styles.main_hero} ref={Home}>
         <div className={styles.main_hero_info}>
           <div className={styles.main_hero_info_text}>
             <h1>{hero.info.title}</h1>
