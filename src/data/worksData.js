@@ -1,14 +1,15 @@
-import IconPoto from "../assets/photo_2023-10-13 15.34.24.jpeg";
 import Aesthetic from "../assets/Aesthetic.png";
 import RPS from "../assets/RPS.png";
 import Everest from "../assets/Everest.png";
 import Portfolio from "../assets/Снимок экрана 2024-09-29 в 19.07.21.png";
+import School from "../assets/Снимок экрана 2024-10-25 в 12.29.58.png";
+import CompanyList from "../assets/Снимок экрана 2024-10-25 в 13.37.22.png";
 
 export const works = [
   {
     id: 6,
     picture: Portfolio,
-    video: "https://www.youtube.com/embed/hZliD3I12Aw",
+    video: "https://youtu.be/2CAwAvPUmsA",
     info: {
       title: "Portfolio",
       text: (
@@ -35,8 +36,8 @@ export const works = [
 
   {
     id: 5,
-    picture: IconPoto,
-    video: "https://www.youtube.com/embed/hZliD3I12Aw",
+    picture: School,
+    video: "https://youtu.be/crmug9qctzk",
     info: {
       title: "School",
       text: (
@@ -68,8 +69,8 @@ export const works = [
 
   {
     id: 4,
-    picture: IconPoto,
-    video: "https://www.youtube.com/embed/hZliD3I12Aw",
+    picture: CompanyList,
+    video: "https://youtu.be/gohOh0pvxag",
     info: {
       title: "Company List",
       text: (
@@ -98,7 +99,7 @@ export const works = [
   {
     id: 3,
     picture: Everest,
-    video: "https://www.youtube.com/embed/hZliD3I12Aw",
+    video: "https://youtu.be/VgLVxZ6AWx0",
     info: {
       title: "Everest",
       text: (
@@ -116,7 +117,7 @@ export const works = [
   {
     id: 2,
     picture: RPS,
-    video: "https://www.youtube.com/embed/hZliD3I12Aw",
+    video: "https://youtu.be/R3cowfyVPso",
     info: {
       title: 'Game "Rock Paper Scissors"',
       text: (
@@ -134,7 +135,7 @@ export const works = [
   {
     id: 1,
     picture: Aesthetic,
-    video: "https://www.youtube.com/embed/hZliD3I12Aw",
+    video: "https://youtu.be/Wq1HKn5PRLU",
     info: {
       title: "Aesthetic Web",
       text: (
